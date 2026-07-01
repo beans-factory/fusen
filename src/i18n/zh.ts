@@ -1,0 +1,56 @@
+import type { Translations } from './en'
+
+export const zh: Translations = {
+  editor: {
+    shortcutNewNote: '新建备忘录',
+    renameHint:      '点击重命名',
+    editTags:        '编辑标签',
+    noTags:          '暂无标签',
+  },
+  settings: {
+    title: '设置',
+    badge: 'settings.json',
+    reset: '重置',
+    close: '关闭',
+  },
+  statusBar: {
+    notes:   '备忘录',
+    tags:    '标签',
+    saving:  '保存中...',
+    saved:   '已保存',
+    logout:  '退出登录',
+  },
+  login: {
+    subtitle:    '请输入访问密钥',
+    placeholder: '访问密钥',
+    submit:      '登录',
+    error:       '密钥无效',
+  },
+  board: {
+    newMemo:     '新建备忘录',
+    search:      '搜索备忘录…',
+    all:         '全部',
+    noTags:      '暂无标签',
+    tagName:     '标签名称',
+    create:      '创建',
+    save:        '保存',
+    delete:      '删除',
+    cancel:      '取消',
+    custom:      '自定义…',
+    deleteTitle: '删除备忘录',
+    deleteUndo:  '此操作无法撤销。',
+    noResults:   '未找到匹配的备忘录',
+  },
+  commands: {
+    placeholder:  '执行命令…',
+    newMemo:      '新建备忘录',
+    showPreview:  '显示预览',
+    hidePreview:  '隐藏预览',
+    settings:     '打开设置',
+    export:       '导出全部为 ZIP',
+    exportTitle:  'ZIP 导出',
+    exportOk:     '导出',
+    lightTheme:   '切换至浅色主题',
+    darkTheme:    '切换至深色主题',
+  },
+}

@@ -1,0 +1,56 @@
+import type { Translations } from './en'
+
+export const de: Translations = {
+  editor: {
+    shortcutNewNote: 'Neues Memo',
+    renameHint:      'Zum Umbenennen klicken',
+    editTags:        'Tags bearbeiten',
+    noTags:          'Keine Tags',
+  },
+  settings: {
+    title: 'Einstellungen',
+    badge: 'settings.json',
+    reset: 'Zurücksetzen',
+    close: 'Schließen',
+  },
+  statusBar: {
+    notes:   'Memos',
+    tags:    'Tags',
+    saving:  'Speichern...',
+    saved:   'Gespeichert',
+    logout:  'Abmelden',
+  },
+  login: {
+    subtitle:    'Zugriffsschlüssel eingeben',
+    placeholder: 'Zugriffsschlüssel',
+    submit:      'Anmelden',
+    error:       'Ungültiger Schlüssel',
+  },
+  board: {
+    newMemo:     'Neues Memo',
+    search:      'Memos suchen…',
+    all:         'Alle',
+    noTags:      'Keine Tags',
+    tagName:     'Tag-Name',
+    create:      'Erstellen',
+    save:        'Speichern',
+    delete:      'Löschen',
+    cancel:      'Abbrechen',
+    custom:      'Benutzerdefiniert…',
+    deleteTitle: 'Memo löschen',
+    deleteUndo:  'Diese Aktion kann nicht rückgängig gemacht werden.',
+    noResults:   'Keine passenden Memos',
+  },
+  commands: {
+    placeholder:  'Befehl ausführen…',
+    newMemo:      'Neues Memo',
+    showPreview:  'Vorschau anzeigen',
+    hidePreview:  'Vorschau ausblenden',
+    settings:     'Einstellungen öffnen',
+    export:       'Alles als ZIP exportieren',
+    exportTitle:  'ZIP-Export',
+    exportOk:     'Exportieren',
+    lightTheme:   'Zum hellen Design wechseln',
+    darkTheme:    'Zum dunklen Design wechseln',
+  },
+}

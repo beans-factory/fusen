@@ -1,0 +1,56 @@
+import type { Translations } from './en'
+
+export const ko: Translations = {
+  editor: {
+    shortcutNewNote: '새 메모',
+    renameHint:      '클릭하여 이름 변경',
+    editTags:        '태그 편집',
+    noTags:          '태그 없음',
+  },
+  settings: {
+    title: '설정',
+    badge: 'settings.json',
+    reset: '초기화',
+    close: '닫기',
+  },
+  statusBar: {
+    notes:   '메모',
+    tags:    '태그',
+    saving:  '저장 중...',
+    saved:   '저장됨',
+    logout:  '로그아웃',
+  },
+  login: {
+    subtitle:    '접근 키를 입력하세요',
+    placeholder: '접근 키',
+    submit:      '로그인',
+    error:       '잘못된 키',
+  },
+  board: {
+    newMemo:     '새 메모',
+    search:      '메모 검색…',
+    all:         '전체',
+    noTags:      '태그 없음',
+    tagName:     '태그 이름',
+    create:      '만들기',
+    save:        '저장',
+    delete:      '삭제',
+    cancel:      '취소',
+    custom:      '사용자 지정…',
+    deleteTitle: '메모 삭제',
+    deleteUndo:  '이 작업은 취소할 수 없습니다.',
+    noResults:   '일치하는 메모 없음',
+  },
+  commands: {
+    placeholder:  '명령 실행…',
+    newMemo:      '새 메모',
+    showPreview:  '미리보기 표시',
+    hidePreview:  '미리보기 숨기기',
+    settings:     '설정 열기',
+    export:       '전체 ZIP으로 내보내기',
+    exportTitle:  'ZIP 내보내기',
+    exportOk:     '내보내기',
+    lightTheme:   '라이트 테마로 전환',
+    darkTheme:    '다크 테마로 전환',
+  },
+}

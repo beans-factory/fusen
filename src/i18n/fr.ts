@@ -1,0 +1,56 @@
+import type { Translations } from './en'
+
+export const fr: Translations = {
+  editor: {
+    shortcutNewNote: 'Nouveau mémo',
+    renameHint:      'Cliquer pour renommer',
+    editTags:        'Modifier les tags',
+    noTags:          'Aucun tag',
+  },
+  settings: {
+    title: 'Paramètres',
+    badge: 'settings.json',
+    reset: 'Réinitialiser',
+    close: 'Fermer',
+  },
+  statusBar: {
+    notes:   'mémos',
+    tags:    'tags',
+    saving:  'Enregistrement...',
+    saved:   'Enregistré',
+    logout:  'Déconnexion',
+  },
+  login: {
+    subtitle:    "Entrez votre clé d'accès",
+    placeholder: "Clé d'accès",
+    submit:      'Connexion',
+    error:       'Clé invalide',
+  },
+  board: {
+    newMemo:     'Nouveau mémo',
+    search:      'Rechercher des mémos…',
+    all:         'Tous',
+    noTags:      'Aucun tag',
+    tagName:     'Nom du tag',
+    create:      'Créer',
+    save:        'Enregistrer',
+    delete:      'Supprimer',
+    cancel:      'Annuler',
+    custom:      'Personnalisé…',
+    deleteTitle: 'Supprimer le mémo',
+    deleteUndo:  'Cette action est irréversible.',
+    noResults:   'Aucun mémo correspondant',
+  },
+  commands: {
+    placeholder:  'Exécuter une commande…',
+    newMemo:      'Nouveau mémo',
+    showPreview:  "Afficher l'aperçu",
+    hidePreview:  "Masquer l'aperçu",
+    settings:     'Ouvrir les paramètres',
+    export:       'Tout exporter en ZIP',
+    exportTitle:  'Export ZIP',
+    exportOk:     'Exporter',
+    lightTheme:   'Passer au thème clair',
+    darkTheme:    'Passer au thème sombre',
+  },
+}

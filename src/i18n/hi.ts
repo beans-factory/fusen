@@ -1,0 +1,56 @@
+import type { Translations } from './en'
+
+export const hi: Translations = {
+  editor: {
+    shortcutNewNote: 'नया मेमो',
+    renameHint:      'नाम बदलने के लिए क्लिक करें',
+    editTags:        'टैग संपादित करें',
+    noTags:          'कोई टैग नहीं',
+  },
+  settings: {
+    title: 'सेटिंग्स',
+    badge: 'settings.json',
+    reset: 'रीसेट',
+    close: 'बंद करें',
+  },
+  statusBar: {
+    notes:   'मेमो',
+    tags:    'टैग',
+    saving:  'सहेजा जा रहा है...',
+    saved:   'सहेजा गया',
+    logout:  'लॉगआउट',
+  },
+  login: {
+    subtitle:    'एक्सेस की दर्ज करें',
+    placeholder: 'एक्सेस की',
+    submit:      'लॉगिन',
+    error:       'अमान्य की',
+  },
+  board: {
+    newMemo:     'नया मेमो',
+    search:      'मेमो खोजें…',
+    all:         'सभी',
+    noTags:      'कोई टैग नहीं',
+    tagName:     'टैग नाम',
+    create:      'बनाएं',
+    save:        'सहेजें',
+    delete:      'हटाएं',
+    cancel:      'रद्द करें',
+    custom:      'कस्टम…',
+    deleteTitle: 'मेमो हटाएं',
+    deleteUndo:  'यह क्रिया पूर्ववत नहीं की जा सकती।',
+    noResults:   'कोई मिलान मेमो नहीं',
+  },
+  commands: {
+    placeholder:  'कमांड चलाएं…',
+    newMemo:      'नया मेमो',
+    showPreview:  'पूर्वावलोकन दिखाएं',
+    hidePreview:  'पूर्वावलोकन छुपाएं',
+    settings:     'सेटिंग्स खोलें',
+    export:       'सभी को ZIP में निर्यात करें',
+    exportTitle:  'ZIP निर्यात',
+    exportOk:     'निर्यात करें',
+    lightTheme:   'लाइट थीम पर जाएं',
+    darkTheme:    'डार्क थीम पर जाएं',
+  },
+}

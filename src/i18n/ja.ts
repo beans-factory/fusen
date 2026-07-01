@@ -1,0 +1,56 @@
+import type { Translations } from './en'
+
+export const ja: Translations = {
+  editor: {
+    shortcutNewNote: '新規メモ',
+    renameHint:      'クリックでリネーム',
+    editTags:        'タグを編集',
+    noTags:          'タグがありません',
+  },
+  settings: {
+    title: '設定',
+    badge: 'settings.json',
+    reset: 'リセット',
+    close: '閉じる',
+  },
+  statusBar: {
+    notes:   'メモ',
+    tags:    'タグ',
+    saving:  '保存中...',
+    saved:   '保存済み',
+    logout:  'ログアウト',
+  },
+  login: {
+    subtitle:    'アクセスキーを入力',
+    placeholder: 'アクセスキー',
+    submit:      'ログイン',
+    error:       'キーが正しくありません',
+  },
+  board: {
+    newMemo:     '新規メモ',
+    search:      'メモを検索…',
+    all:         'すべて',
+    noTags:      'タグがありません',
+    tagName:     'タグ名',
+    create:      '作成',
+    save:        '保存',
+    delete:      '削除',
+    cancel:      'キャンセル',
+    custom:      'カスタム…',
+    deleteTitle: 'メモを削除',
+    deleteUndo:  'この操作は元に戻せません。',
+    noResults:   'に一致するメモはありません',
+  },
+  commands: {
+    placeholder:  'コマンドを実行…',
+    newMemo:      '新規メモ',
+    showPreview:  'プレビューを表示',
+    hidePreview:  'プレビューを非表示',
+    settings:     '設定を開く',
+    export:       '全メモをZIPエクスポート',
+    exportTitle:  'ZIPエクスポート',
+    exportOk:     'エクスポート',
+    lightTheme:   'ライトテーマに切替',
+    darkTheme:    'ダークテーマに切替',
+  },
+}
